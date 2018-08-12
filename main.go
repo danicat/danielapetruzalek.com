@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-	http.HandleFunc("/", handle)
+	http.HandleFunc("/hello", handle)
 	appengine.Main()
 }
 
